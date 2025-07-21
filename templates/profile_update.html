@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile - aks job listing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', Arial, sans-serif; background: #f6f8fa; margin: 0; padding: 0; }
+        .profile-container { max-width: 500px; margin: 60px auto; background: #fff; border-radius: 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 36px 32px; }
+        h2 { color: #2563eb; text-align: center; margin-bottom: 24px; }
+        form { display: flex; flex-direction: column; gap: 18px; }
+        label { font-weight: 600; color: #2563eb; margin-bottom: 6px; }
+        input[type="text"], input[type="email"], input[type="file"] { padding: 10px; border: 1.5px solid #e0e7ef; border-radius: 8px; font-size: 1rem; }
+        textarea { padding: 10px; border: 1.5px solid #e0e7ef; border-radius: 8px; font-size: 1rem; }
+        button { padding: 12px; background: #2563eb; color: #fff; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #1746a2; }
+        .back-link { display: inline-block; margin-top: 18px; color: #2563eb; text-decoration: none; font-weight: 600; text-align: center; width: 100%; }
+        .back-link:hover { text-decoration: underline; }
+        .profile-photo-preview { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 18px; }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Edit Profile</h2>
+        {% if profile.photo %}
+            <img src="{{ profile.photo.url }}" alt="Profile Photo" class="profile-photo-preview">
+        {% endif %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ user_form.as_p }}
+            {{ profile_form.as_p }}
+            <button type="submit">Save Changes</button>
+        </form>
+        <a href="/profile/" class="back-link">&larr; Back to Profile</a>
+    </div>
+</body>
+</html> 

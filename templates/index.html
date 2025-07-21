@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aks job listing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2563eb;
+            letter-spacing: 1px;
+            margin-right: 40px;
+        }
+        .nav {
+            display: flex;
+            gap: 30px;
+        }
+        .nav a {
+            color: #222;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }
+        .nav a:hover {
+            color: #2563eb;
+        }
+        .search-bar {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .search-bar input[type="text"] {
+            width: 350px;
+            padding: 12px 16px;
+            border: 1.5px solid #e0e7ef;
+            border-radius: 8px 0 0 8px;
+            font-size: 1rem;
+            outline: none;
+            background: #f8fafc;
+        }
+        .search-bar button {
+            padding: 12px 24px;
+            border: none;
+            background: #2563eb;
+            color: #fff;
+            font-size: 1rem;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .search-bar button:hover {
+            background: #1746a2;
+        }
+        .main {
+            display: flex;
+            max-width: 1400px;
+            margin: 40px auto 0 auto;
+            gap: 32px;
+        }
+        .sidebar {
+            width: 260px;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 28px 22px 22px 22px;
+            height: fit-content;
+        }
+        .sidebar h3 {
+            font-size: 1.1rem;
+            margin-bottom: 18px;
+            color: #222;
+        }
+        .filter-group {
+            margin-bottom: 28px;
+        }
+        .filter-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: #444;
+            font-size: 0.98rem;
+        }
+        .filter-group input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        .slider {
+            width: 100%;
+        }
+        .content {
+            flex: 1;
+            min-width: 0;
+        }
+        .job-list {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+        .job-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 26px 30px 22px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: box-shadow 0.2s, transform 0.2s;
+            position: relative;
+            cursor: pointer;
+        }
+        .job-card:hover {
+            box-shadow: 0 6px 24px rgba(37,99,235,0.10);
+            transform: translateY(-2px) scale(1.01);
+        }
+        .job-title {
+            font-size: 1.18rem;
+            font-weight: 600;
+            color: #1746a2;
+        }
+        .job-company {
+            font-size: 1.05rem;
+            color: #444;
+            font-weight: 500;
+        }
+        .job-details {
+            display: flex;
+            gap: 18px;
+            color: #666;
+            font-size: 0.97rem;
+            margin-top: 2px;
+        }
+        .save-btn {
+            position: absolute;
+            top: 24px;
+            right: 30px;
+            background: none;
+            border: none;
+            color: #2563eb;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .save-btn:hover {
+            color: #1746a2;
+        }
+        .rightbar {
+            width: 260px;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 28px 22px 22px 22px;
+            height: fit-content;
+        }
+        .featured-companies {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        .featured-company {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 10px 8px;
+            text-align: center;
+            font-size: 0.98rem;
+            color: #2563eb;
+            font-weight: 600;
+            box-shadow: 0 1px 4px rgba(37,99,235,0.04);
+        }
+        .error, .matched-title {
+            margin-bottom: 18px;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 1.05rem;
+        }
+        .error {
+            color: #d7263d;
+            background: #ffeaea;
+            border-left: 4px solid #d7263d;
+        }
+        .matched-title {
+            color: #2d8f85;
+            background: #e6fff7;
+            border-left: 4px solid #2d8f85;
+        }
+        .job-card { cursor: pointer; }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0; top: 0; width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.35);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: #fff;
+            border-radius: 14px;
+            padding: 32px 36px;
+            max-width: 500px;
+            width: 90vw;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+            position: relative;
+            animation: fadeIn 0.4s;
+        }
+        .close {
+            position: absolute;
+            top: 18px;
+            right: 22px;
+            font-size: 1.5rem;
+            color: #888;
+            cursor: pointer;
+        }
+        .modal-content h2 { margin-top: 0; color: #1746a2; }
+        .modal-content .field { margin-bottom: 10px; }
+        .modal-content .field strong { color: #2563eb; }
+        @media (max-width: 1100px) {
+            .main { flex-direction: column; gap: 0; }
+            .sidebar, .rightbar { width: 100%; margin-bottom: 30px; }
+        }
+        .sidebar form select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1.5px solid #e0e7ef;
+            border-radius: 8px;
+            background: #f8fafc;
+            font-size: 1rem;
+            margin-bottom: 16px;
+            transition: border 0.3s, box-shadow 0.3s;
+            box-shadow: 0 1px 4px rgba(37,99,235,0.04);
+            outline: none;
+            cursor: pointer;
+            appearance: none;
+            position: relative;
+        }
+        .sidebar form select:focus {
+            border: 1.5px solid #2563eb;
+            box-shadow: 0 0 0 2px #2563eb22;
+            background: #fff;
+        }
+        .sidebar form label {
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 6px;
+            display: block;
+            letter-spacing: 0.5px;
+        }
+        .sidebar form .filter-group {
+            margin-bottom: 22px;
+            animation: fadeIn 0.7s;
+        }
+        .sidebar form select:hover {
+            border: 1.5px solid #1746a2;
+            background: #f0f6ff;
+        }
+        .sidebar form select {
+            background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            background-repeat: no-repeat;
+            background-position: right 0.7em top 50%, 0 0;
+            background-size: 1.5em auto, 100%;
+        }
+        .sidebar form select:active {
+            background: #fffbe6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">aks job listing</div>
+        <nav class="nav" style="flex:1;">
+            <a href="/">Jobs</a>
+            <a href="#">Companies</a>
+            <a href="#">Services</a>
+            {% if user.is_authenticated %}
+                <a href="/logout/">Logout</a>
+            {% else %}
+                <a href="/login/">Login</a>
+            {% endif %}
+        </nav>
+        {% if user.is_authenticated %}
+            {% with profile=user.profile %}
+                <a href="/profile/" style="display:inline-block;vertical-align:middle;float:right;margin-left:18px;">
+                    {% if profile.photo %}
+                        <img src="{{ profile.photo.url }}" alt="Profile Photo" style="width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;">
+                    {% else %}
+                        <svg height="32" width="32" viewBox="0 0 24 24" style="vertical-align:middle;"><circle cx="12" cy="8" r="4" fill="#2563eb"/><ellipse cx="12" cy="18" rx="7" ry="4" fill="#2563eb" opacity="0.3"/></svg>
+                    {% endif %}
+                </a>
+            {% endwith %}
+        {% endif %}
+    </div>
+    <div style="display:flex;justify-content:center;margin:30px 0 0 0;">
+        <form class="search-bar" method="post" action="/recommend/" style="width:600px;max-width:90vw;">
+            {% csrf_token %}
+            <input type="text" name="job_title" id="job_title" list="job-titles" placeholder="Search jobs (e.g. Data Scientist)" required autocomplete="off" style="width:75%;">
+            <datalist id="job-titles">
+                {% for job in job_titles %}
+                    <option value="{{ job }}">
+                {% endfor %}
+            </datalist>
+            <button type="submit" style="width:20%;min-width:80px;">🔍</button>
+        </form>
+    </div>
+    <div class="main">
+        <aside class="sidebar">
+            <h3>All Filters</h3>
+            <form method="get" id="filter-form">
+                <div class="filter-group">
+                    <label for="location">Location</label>
+                    <select name="location" id="location" onchange="document.getElementById('filter-form').submit();">
+                        <option value="">Any</option>
+                        {% for loc in locations %}
+                            <option value="{{ loc }}" {% if filters.Location == loc %}selected{% endif %}>{{ loc }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="year">Year</label>
+                    <select name="year" id="year" onchange="document.getElementById('filter-form').submit();">
+                        <option value="">Any</option>
+                        {% for y in years %}
+                            <option value="{{ y }}" {% if filters.Year == y|stringformat:'s' %}selected{% endif %}>{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="month">Month</label>
+                    <select name="month" id="month" onchange="document.getElementById('filter-form').submit();">
+                        <option value="">Any</option>
+                        {% for m in months %}
+                            <option value="{{ m }}" {% if filters.Month == m|stringformat:'s' %}selected{% endif %}>{{ m }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="it">IT</label>
+                    <select name="it" id="it" onchange="document.getElementById('filter-form').submit();">
+                        <option value="">Any</option>
+                        {% for itval in its %}
+                            <option value="{{ itval }}" {% if filters.IT == itval %}selected{% endif %}>{{ itval }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </form>
+        </aside>
+        <section class="content" style="width:100%;">
+            {% if show_all %}
+                <div class="job-list">
+                    {% for row in all_jobs %}
+                        <a href="/job/{{ row.id }}/" style="text-decoration:none;color:inherit;">
+                        <div class="job-card">
+                            <div class="job-title">{{ row.Title }}</div>
+                            <div class="job-company">{{ row.Company }}</div>
+                            <div class="job-details">
+                                <span><strong>Location:</strong> {% if row.Location and row.Location|length <= 20 %}{{ row.Location }}{% endif %}</span>
+                                <span><strong>Year:</strong> {{ row.Year }}</span>
+                                <span><strong>Month:</strong> {{ row.Month }}</span>
+                                <span><strong>IT:</strong> {{ row.IT }}</span>
+                            </div>
+                        </div>
+                        </a>
+                    {% empty %}
+                        <div>No jobs found.</div>
+                    {% endfor %}
+                </div>
+                {% if total_pages > 1 %}
+                <div style="text-align:center; margin: 30px 0 10px 0;">
+                    {% if page > 1 %}
+                        <a href="?page={{ page|add:'-1' }}" style="margin-right:18px;">&laquo; Prev</a>
+                    {% endif %}
+                    <span>Page {{ page }} of {{ total_pages }}</span>
+                    {% if page < total_pages %}
+                        <a href="?page={{ page|add:'1' }}" style="margin-left:18px;">Next &raquo;</a>
+                    {% endif %}
+                </div>
+                {% endif %}
+            {% elif recommendations is not None %}
+                <div class="job-list">
+                    {% for row in recommendations %}
+                        <a href="/job/{{ row.id }}/" style="text-decoration:none;color:inherit;">
+                        <div class="job-card">
+                            <div class="job-title">{{ row.Title }}</div>
+                            <div class="job-company">{{ row.Company }}</div>
+                            <div class="job-details">
+                                <span><strong>Location:</strong> {% if row.Location and row.Location|length <= 20 %}{{ row.Location }}{% endif %}</span>
+                                <span><strong>Year:</strong> {{ row.Year }}</span>
+                                <span><strong>Month:</strong> {{ row.Month }}</span>
+                                <span><strong>IT:</strong> {{ row.IT }}</span>
+                            </div>
+                        </div>
+                        </a>
+                    {% empty %}
+                        <div>No recommendations found.</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </section>
+        <aside class="rightbar">
+            <h3>See jobs in Featured Companies</h3>
+            <div class="featured-companies">
+                <div class="featured-company">Conduent</div>
+                <div class="featured-company">Virtusa</div>
+                <div class="featured-company">Capgemini</div>
+                <div class="featured-company">Tech Mahindra</div>
+                <div class="featured-company">Infosys</div>
+                <div class="featured-company">Kyndryl</div>
+                <div class="featured-company">IQVIA</div>
+                <div class="featured-company">OpenText</div>
+            </div>
+        </aside>
+    </div>
+    <script>
+        function showModal(idx) {
+            document.getElementById('modal-' + idx).style.display = 'flex';
+        }
+        function hideModal(idx) {
+            document.getElementById('modal-' + idx).style.display = 'none';
+        }
+        // Hide modal on background click
+        document.querySelectorAll('.modal').forEach(function(modal) {
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) modal.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

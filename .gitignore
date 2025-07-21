@@ -1,0 +1,26 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+/static/models/
+.env
+*.xlsx
+*.csv
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log 
