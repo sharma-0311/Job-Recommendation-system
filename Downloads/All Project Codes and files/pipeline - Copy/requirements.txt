@@ -1,0 +1,66 @@
+selenium
+pandas
+openpyxl
+numpy
+pypdf
+webdriver-manager
+requests
+paddleocr
+paddlepaddle
+opencv-python-headless
+torch 
+transformers 
+sentencepiece 
+Pillow 
+opencv-python 
+# ── FastAPI & ASGI server ─────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# ── Pydantic (request/response models) ───────────────────────────────────────
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# ── Async file I/O ────────────────────────────────────────────────────────────
+aiofiles==24.1.0
+
+# ── Excel workbook generation ─────────────────────────────────────────────────
+openpyxl==3.1.5
+
+# ── Gemini AI SDK (dual-SDK support — same as engine) ────────────────────────
+google-generativeai==0.8.3
+google-genai==1.5.0
+
+# ── AWS / Cloud storage (optional, for future S3 upload support) ──────────────
+boto3==1.35.63
+botocore==1.35.63
+
+# ── Progress bars (used by GST engine) ───────────────────────────────────────
+tqdm==4.67.1
+
+# ── HTTP client (internal health checks) ─────────────────────────────────────
+# httpx==0.27.2
+httpx==0.28.1
+
+# ── Environment variable management ──────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Logging middleware ────────────────────────────────────────────────────────
+python-json-logger==2.0.7
+
+# ── Memory profiling (optional — used by GST engine) ─────────────────────────
+psutil==6.1.0
+
+# ── CustomTkinter excluded for headless server use ───────────────────────────
+# customtkinter is GUI-only; the API layer bypasses the UI class entirely.
+# Install only if you need to also run the desktop UI on the same machine:
+customtkinter==5.2.2
+
+# ── Optional: Qwen Local Hugging Face Inference ──────────────────────────────
+transformers>=4.48.0
+torch
+torchvision
+qwen-vl-utils
+accelerate
+sentencepiece

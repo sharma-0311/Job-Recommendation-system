@@ -1,0 +1,1168 @@
+12:19:24 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as Knowledge Boulevard situated at A-8A, Sector-62, Noida (U.P.), pincode - 201309
+12:19:24 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+12:19:24 [INFO] Excel Hyperlink: ../power/husk%20Lease%20Deed%20Knowledge%20Bouvelard%20(1).pdf
+12:19:24 [INFO] Resolved Document: C:\Users\rgour\Downloads\power_client_outputs\_internal\Uttar Pradesh
+12:19:24 [INFO] Document Exists: True
+12:19:24 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+12:19:24 [INFO] [PDF-COMPRESS] File 'Uttar Pradesh' is already small enough (0.00MB). Skipping compression.
+12:19:24 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+12:19:24 [INFO] Total Registrations Found: 1
+12:19:24 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+12:19:24 [INFO] [DEBUG] Total Active Rows Loaded: 1
+12:19:24 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+12:19:24 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+12:19:24 [INFO] ====== WebDriver manager ======
+12:19:27 [INFO] Get LATEST chromedriver version for google-chrome
+12:19:29 [INFO] Get LATEST chromedriver version for google-chrome
+12:19:30 [INFO] WebDriver version 149.0.7827.115 selected
+12:19:30 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.115/win64/chromedriver-win64.zip
+12:19:30 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.115/win64/chromedriver-win64.zip
+12:19:31 [INFO] Driver downloading response is 200
+12:19:35 [INFO] Driver has been saved in cache [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115]
+12:19:37 [INFO] Chrome WebDriver initialised successfully.
+12:19:40 [INFO] [CAPTCHA] Login attempt 1/2
+12:19:40 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+12:19:41 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:19:41 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:19:41 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+12:19:41 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+12:19:42 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+12:19:42 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+12:19:42 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:43 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+12:19:44 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:44 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+12:19:44 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:19:44 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+12:19:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:45 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+12:19:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+12:19:46 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+12:19:46 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+12:19:46 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+12:19:46 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+12:19:47 [INFO] [CAPTCHA] Image captured via element.screenshot (182×50px)
+12:19:47 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781592587025.png
+12:19:47 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+12:19:54 [INFO] [CAPTCHA] OCR result: '608698'  confidence: 80.3%  (7474ms)
+12:19:54 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='608698'  cleaned='608698'  conf=80.3%
+12:19:54 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=80.3% >= 75%, len=6)
+12:19:54 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '608698'  (conf=80.3%)
+12:19:54 [INFO] [CAPTCHA] Field filled with: '608698'
+12:20:07 [WARNING] [CAPTCHA] Dashboard not found on attempt 1 (text='608698').
+12:20:08 [INFO] [CAPTCHA] CAPTCHA refreshed via click.
+12:20:08 [INFO] [CAPTCHA] Login attempt 2/2
+12:20:09 [INFO] [CAPTCHA] Image captured via element.screenshot (182×50px)
+12:20:09 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781592609508.png
+12:20:09 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+12:20:12 [INFO] [CAPTCHA] OCR result: '766615'  confidence: 80.1%  (2885ms)
+12:20:12 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='766615'  cleaned='766615'  conf=80.1%
+12:20:12 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=80.1% >= 75%, len=6)
+12:20:12 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '766615'  (conf=80.1%)
+12:20:12 [INFO] [CAPTCHA] Field filled with: '766615'
+12:20:14 [INFO] [CAPTCHA] Login OK on attempt 2.
+12:20:14 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+12:20:26 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+12:20:26 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+12:20:26 [INFO] Registration 1 of 1
+12:20:26 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+12:20:31 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+12:20:31 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+12:20:32 [INFO] [API-READ] Contact details fetched successfully.
+12:20:32 [WARNING] [PROFILE-API] Profile contact API failed, using visual DOM fallback: 'str' object has no attribute 'get'
+12:20:32 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+12:20:33 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+12:20:35 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+12:20:35 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+12:20:36 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+12:20:37 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+12:20:37 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+12:20:37 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+12:20:37 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+12:20:37 [INFO] [GSTREG-001] Scanning My Saved Applications...
+12:20:37 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+12:20:42 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+12:20:46 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+12:20:49 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+12:20:52 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592652173_01_amend_workspace.png
+12:20:52 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592652267_before_save_apob_toggle.png
+12:20:52 [INFO] [APOB] Navigating to Principal Place of Business tab...
+12:20:55 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+12:20:55 [INFO] [APOB] YES radio already checked.
+12:20:56 [INFO] [APOB] Principal Place of Business tab saved successfully.
+12:20:58 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592658172_02_apob_enabled.png
+12:20:58 [INFO] [APOB] Navigating to Additional Places of Business tab...
+12:21:00 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592660699_03_apob_tab.png
+12:21:00 [INFO] [APOB-BATCH] Total APoB records detected: 1
+12:21:00 [INFO] [DEBUG] About to update Additional Places count using 1 records
+12:21:00 [INFO] [APOB] Initiating dynamic additional places incrementer. New records to add (N): 1
+12:21:00 [INFO] [APOB] Existing Places: 5
+12:21:00 [INFO] [APOB] New Records From Excel: 1
+12:21:00 [INFO] [APOB] Updating Total Places To: 6
+12:21:00 [INFO] [APOB] Tapping on free screen (body) to trigger validation...
+12:21:03 [INFO] [APOB] Number of additional places successfully set to 6
+12:21:03 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592663019_03b_num_apob_filled.png
+12:21:03 [INFO] [APOB] process_apob_batch delegating directly to process_multiple_apobs.
+12:21:03 [INFO] [APOB-BATCH] Total APoB records detected: 1
+12:21:03 [INFO] [APOB-RECORD] Processing record 1/1
+12:21:03 [INFO] [APOB] First APoB subform is not open. Triggering ADD NEW...
+12:21:03 [INFO] [APOB] Initiating enterprise-grade ADD NEW button detection...
+12:21:15 [INFO] [APOB] ADD NEW clicked via Priority 5 (JavaScript fallback)
+12:21:16 [INFO] [APOB] Waiting for fresh blank APOB form to load...
+12:21:16 [INFO] [APOB] Fresh APOB form loaded (Modal visible).
+12:21:16 [INFO] [APOB] Running APoB Form Expansion Handler to locate and expand the latest entry...
+12:21:18 [INFO] [APOB] Verifying fresh/blank APOB form...
+12:21:18 [INFO] [APOB] Fresh APOB form verified.
+12:21:18 [INFO] [FORM] Filling APoB form fields...
+12:21:18 [INFO] [APOB] Filling PIN Code: 201309
+12:21:33 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592693556_gstin_processing_fail.png
+12:21:33 [ERROR] [TEMP_UTTAR PRADESH] GSTIN Processing Error | Step: 'GSTIN Loop' | Error: Message: 
+ | URL: https://reg.gst.gov.in/registration/auth/amend/core/amendaddlplace | Screenshot: screenshots/TEMP_UTTAR PRADESH_1781592693556_gstin_processing_fail.png
+12:21:33 [INFO] [TRACKING] Logged to failed_clients.xlsx.
+12:21:33 [INFO] [TEMP_UTTAR PRADESH] Resiliently continuing queue from next pending GSTIN.
+12:21:36 [INFO] 
+Bulk queue execution finished.
+12:23:20 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as Knowledge Boulevard situated at A-8A, Sector-62, Noida (U.P.), pincode - 201309
+12:23:20 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+12:23:20 [INFO] Excel Hyperlink: ../power/husk%20Lease%20Deed%20Knowledge%20Bouvelard%20(1).pdf
+12:23:20 [INFO] Resolved Document: C:\Users\rgour\Downloads\power_client_outputs\_internal\Uttar Pradesh
+12:23:20 [INFO] Document Exists: True
+12:23:20 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+12:23:20 [INFO] [PDF-COMPRESS] File 'Uttar Pradesh' is already small enough (0.00MB). Skipping compression.
+12:23:20 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+12:23:20 [INFO] Total Registrations Found: 1
+12:23:20 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+12:23:20 [INFO] [DEBUG] Total Active Rows Loaded: 1
+12:23:20 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+12:23:20 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+12:23:20 [INFO] ====== WebDriver manager ======
+12:23:21 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+12:23:22 [INFO] Chrome WebDriver initialised successfully.
+12:23:25 [INFO] [CAPTCHA] Login attempt 1/2
+12:23:25 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+12:23:26 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:23:26 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:23:26 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+12:23:26 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+12:23:27 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+12:23:27 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+12:23:27 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:23:28 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:28 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+12:23:28 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+12:23:28 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:28 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+12:23:29 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:29 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+12:23:29 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:29 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+12:23:29 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:23:30 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+12:23:30 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:30 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+12:23:30 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+12:23:31 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+12:23:31 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+12:23:31 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+12:23:31 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+12:23:32 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+12:23:32 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781592812318.png
+12:23:32 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+12:23:35 [INFO] [CAPTCHA] OCR result: '12259-'  confidence: 65.7%  (2850ms)
+12:23:35 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='12259-'  cleaned='12259'  conf=65.7%
+12:23:38 [INFO] [CAPTCHA] OCR result: 'KALA'  confidence: 54.7%  (2966ms)
+12:23:38 [INFO] [CAPTCHA]   Red Mask Only          raw='KALA'  cleaned='KALA'  conf=54.7%
+12:23:40 [INFO] [CAPTCHA] OCR result: 'TOTAL'  confidence: 43.6%  (2407ms)
+12:23:40 [INFO] [CAPTCHA]   Red+Median             raw='TOTAL'  cleaned='T0TAL'  conf=43.6%
+12:23:43 [INFO] [CAPTCHA] OCR result: 'KALA'  confidence: 42.7%  (2460ms)
+12:23:43 [INFO] [CAPTCHA]   Red+Median+CLAHE       raw='KALA'  cleaned='KALA'  conf=42.7%
+12:23:43 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '12259'  (conf=65.7%)
+12:23:43 [WARNING] [CAPTCHA] Length mismatch: got 5 chars ('12259'), expected 6. Rejecting and refreshing CAPTCHA immediately...
+12:23:43 [INFO] [CAPTCHA] CAPTCHA refreshed via click.
+12:23:44 [INFO] [CAPTCHA] Login attempt 2/2
+12:23:44 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+12:23:44 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781592824997.png
+12:23:45 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+12:23:47 [INFO] [CAPTCHA] OCR result: '614561'  confidence: 77.7%  (2833ms)
+12:23:47 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='614561'  cleaned='614561'  conf=77.7%
+12:23:47 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=77.7% >= 75%, len=6)
+12:23:47 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '614561'  (conf=77.7%)
+12:23:47 [INFO] [CAPTCHA] Field filled with: '614561'
+12:23:50 [INFO] [CAPTCHA] Login OK on attempt 2.
+12:23:50 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+12:24:02 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+12:24:02 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+12:24:02 [INFO] Registration 1 of 1
+12:24:02 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+12:24:07 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+12:24:07 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+12:24:07 [INFO] [API-READ] Contact details fetched successfully.
+12:24:07 [WARNING] [PROFILE-API] Profile contact API failed, using visual DOM fallback: 'str' object has no attribute 'get'
+12:24:07 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+12:24:09 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+12:24:11 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+12:24:11 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+12:24:12 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+12:24:12 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+12:24:12 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+12:24:12 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+12:24:12 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+12:24:12 [INFO] [GSTREG-001] Scanning My Saved Applications...
+12:24:12 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+12:24:18 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+12:24:22 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+12:24:24 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+12:24:28 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592867843_01_amend_workspace.png
+12:24:28 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592868010_before_save_apob_toggle.png
+12:24:28 [INFO] [APOB] Navigating to Principal Place of Business tab...
+12:24:30 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+12:24:30 [INFO] [APOB] YES radio already checked.
+12:24:31 [INFO] [APOB] Principal Place of Business tab saved successfully.
+12:24:33 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592873767_02_apob_enabled.png
+12:24:33 [INFO] [APOB] Navigating to Additional Places of Business tab...
+12:24:36 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592876420_03_apob_tab.png
+12:24:36 [INFO] [APOB-BATCH] Total APoB records detected: 1
+12:24:36 [INFO] [DEBUG] About to update Additional Places count using 1 records
+12:24:36 [INFO] [APOB] Initiating dynamic additional places incrementer. New records to add (N): 1
+12:24:36 [INFO] [APOB] Existing Places: 5
+12:24:36 [INFO] [APOB] New Records From Excel: 1
+12:24:36 [INFO] [APOB] Updating Total Places To: 6
+12:24:36 [INFO] [APOB] Tapping on free screen (body) to trigger validation...
+12:24:38 [INFO] [APOB] Number of additional places successfully set to 6
+12:24:38 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592878846_03b_num_apob_filled.png
+12:24:38 [INFO] [APOB] process_apob_batch delegating directly to process_multiple_apobs.
+12:24:38 [INFO] [APOB-BATCH] Total APoB records detected: 1
+12:24:38 [INFO] [APOB-RECORD] Processing record 1/1
+12:24:38 [INFO] [APOB] First APoB subform is not open. Triggering ADD NEW...
+12:24:38 [INFO] [APOB] Initiating enterprise-grade ADD NEW button detection...
+12:24:51 [INFO] [APOB] ADD NEW clicked via Priority 5 (JavaScript fallback)
+12:24:52 [INFO] [APOB] Waiting for fresh blank APOB form to load...
+12:24:52 [INFO] [APOB] Fresh APOB form loaded (PIN field is empty).
+12:24:52 [INFO] [APOB] Running APoB Form Expansion Handler to locate and expand the latest entry...
+12:24:54 [INFO] [APOB] Verifying fresh/blank APOB form...
+12:24:54 [INFO] [APOB] Fresh APOB form verified.
+12:24:54 [INFO] [FORM] Filling APoB form fields...
+12:24:54 [INFO] [APOB] Filling PIN Code: 201309
+12:24:54 [INFO] [APOB] Waiting for PIN suggestion dropdown list...
+12:24:54 [INFO] [APOB] Suggestion found. Clicking suggestion to select PIN...
+12:24:55 [INFO] [APOB] PIN entered. Waiting for district auto-fetch/enablement...
+12:24:56 [INFO] [APOB] Auto-fetch/enablement check completed successfully.
+12:24:56 [INFO] [FORM] City/Town/Village is already auto-populated with: 'Noida'. Skipping mapping.
+12:24:56 [INFO] [FORM] Filling auto-suggest APoB Address.locality: Sector-62
+12:25:01 [WARNING] [FORM] Suggestion dropdown did not appear for APoB Address.locality. Sending TAB...
+12:25:02 [INFO] [FORM] Filling auto-suggest APoB Address.road: Main Road
+12:25:03 [INFO] [FORM] Suggestion found for APoB Address.road. Clicking to select...
+12:25:04 [INFO] [AMEND] APoB Address.buildingNo set to: 'Noida (U.P.)'
+12:25:04 [INFO] [AMEND] APoB Contact.mobile set to: '9934011413'
+12:25:05 [INFO] [AMEND] APoB Contact.email set to: 'sinha@huskpowersystems.com'
+12:25:05 [INFO] [APOB] Aligning possession dropdown to code 'OTH' (raw value: 'Not Detected')
+12:25:05 [INFO] [APOB] Locating and activating Document Type dropdown targeting 'ap_up_type'...
+12:25:05 [INFO] [APOB] Selected 'Legal ownership document' and dispatched change event.
+12:25:06 [INFO] [APOB] Prioritizing document path from Excel row dataset: C:\Users\rgour\Downloads\power_client_outputs\_internal\Uttar Pradesh
+12:25:06 [INFO] [PDF-COMPRESS] Using pre-compressed file from cache: C:\Users\rgour\Downloads\power_client_outputs\_internal\Uttar Pradesh
+12:25:06 [INFO] [UPLOAD] Upload attempt 1/3: C:\Users\rgour\Downloads\power_client_outputs\_internal\Uttar Pradesh
+12:25:06 [INFO] [UPLOAD] Bounding path injected. Waiting for upload completion indicator...
+12:25:06 [INFO] [UPLOAD-TRACKER] Tracking upload status event-driven...
+12:25:06 [INFO] [UPLOAD-TRACKER] Trash/Delete element found in DOM. Confirming completion.
+12:25:06 [INFO] [UPLOAD] ✓ Document uploaded successfully (tracked in 0.0s).
+12:25:06 [INFO] [FORM] Integrating sub-form submission metadata (reason and date of amendment)...
+12:25:06 [INFO] [AMEND] Sub-Form Reason set to: 'Addition of Place of Business'
+12:25:06 [INFO] [FORM] Sub-Form Date of Amendment dynamically injected: '16/06/2026'
+12:25:06 [INFO] [APOB] Processing Business Activities: Import, Office / Sale Office, Supplier of Services
+12:25:06 [INFO] [APOB] Master business activities list to select: ['Import', 'Office / Sale Office', 'Supplier of Services', 'Recipient of Goods or Services']
+12:25:06 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_IMP': Import
+12:25:06 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_OSO': Office / Sale Office
+12:25:06 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_SOS': Supplier of Services
+12:25:07 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_SRE': Recipient of Goods or Services
+12:25:07 [INFO] [APOB] Verification pass for the four mandatory business activity checkboxes...
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Import
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Office / Sale Office
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Supplier of Services
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Recipient of Goods or Services
+12:25:07 [INFO] [APOB] Mandatory checkboxes verified
+12:25:07 [INFO] [AUDIT] Running mandatory field audit for stage: APOB Record 1 Form Filling...
+12:25:07 [INFO] [AUDIT] ✓ Stage 'APOB Record 1 Form Filling' passed. No empty mandatory fields found.
+12:25:07 [INFO] [APOB] Running mandatory field enforcement pass before saving...
+12:25:07 [WARNING] [APOB] Document upload is empty! Generating and uploading fallback PDF...
+12:25:07 [INFO] [UPLOAD] Upload attempt 1/3: C:\Users\rgour\AppData\Local\Temp\fallback_ownership_proof.pdf
+12:25:07 [INFO] [UPLOAD] Bounding path injected. Waiting for upload completion indicator...
+12:25:07 [INFO] [UPLOAD-TRACKER] Tracking upload status event-driven...
+12:25:07 [INFO] [UPLOAD-TRACKER] Trash/Delete element found in DOM. Confirming completion.
+12:25:07 [INFO] [UPLOAD] ✓ Document uploaded successfully (tracked in 0.1s).
+12:25:07 [INFO] [APOB] Verification pass for the four mandatory business activity checkboxes...
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Import
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Office / Sale Office
+12:25:07 [INFO] [APOB] Mandatory checkbox checked: Supplier of Services
+12:25:08 [INFO] [APOB] Mandatory checkbox checked: Recipient of Goods or Services
+12:25:08 [INFO] [APOB] Mandatory checkboxes verified
+12:25:08 [INFO] [APOB] Saving individual record 1/1...
+12:25:08 [INFO] [APOB] Committing individual APoB record entry (1/1)...
+12:25:08 [INFO] [APOB] Selected save button text: 'SAVE & CONTINUE'
+12:25:08 [INFO] [APOB] Save button clicked on attempt 1/2.
+12:25:09 [INFO] [APOB] Checking for unsaved changes or confirmation popup...
+12:25:09 [INFO] [APOB-ADDNEW] Waiting for confirmation popup...
+12:25:09 [INFO] [ANGULAR] Waiting for portal rendering and DOM stabilization...
+12:25:10 [INFO] [ANGULAR] DOM is fully stable (elapsed: 1.0s)
+12:25:10 [INFO] [APOB-ADDNEW] Attempt 1/3 to confirm popup...
+12:25:11 [INFO] [APOB-ADDNEW] Confirmation popup accepted
+12:25:14 [INFO] [APOB] Form inputs are no longer visible (form closed).
+12:25:14 [INFO] [APOB] APoB record saved successfully.
+12:25:14 [INFO] [APOB] Final record 1/1 completed & saved successfully.
+12:25:14 [INFO] [FORM] Triggering global Save & Continue
+12:25:17 [INFO] [FORM] Selected global save button text: 'SAVE'
+12:25:17 [INFO] [FORM] Global Save & Continue clicked on attempt 1/2.
+12:25:19 [INFO] [FORM] Checking for global confirmation popup...
+12:25:19 [INFO] [APOB-ADDNEW] Waiting for confirmation popup...
+12:25:19 [INFO] [ANGULAR] Waiting for portal rendering and DOM stabilization...
+12:25:20 [INFO] [ANGULAR] DOM is fully stable (elapsed: 1.0s)
+12:25:20 [INFO] [APOB-ADDNEW] Attempt 1/3 to confirm popup...
+12:25:20 [INFO] [APOB-ADDNEW] Confirmation popup accepted
+12:25:22 [INFO] [APOB] process_multiple_apobs batch completed successfully
+12:25:22 [INFO] [AUDIT] Running mandatory field audit for stage: Finalize Submission...
+12:25:22 [INFO] [AUDIT] ✓ Stage 'Finalize Submission' passed. No empty mandatory fields found.
+12:25:23 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592922961_before_final_submit.png
+12:25:23 [INFO] [FINAL] Finalizing Core Field Amendment...
+12:25:38 [WARNING] [AMEND] Amendment Reason field not found — skipping.
+12:25:53 [WARNING] [FINAL] Failed to fill date field 'Date of Amendment': Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff71d5ffd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff71d5ffdf0+153f0]
+	chromedriver!(No symbol) [0x7ff71d1378fd]
+	chromedriver!(No symbol) [0x7ff71d191479]
+	chromedriver!(No symbol) [0x7ff71d19177c]
+	chromedriver!(No symbol) [0x7ff71d1e1ef7]
+	chromedriver!(No symbol) [0x7ff71d1deaeb]
+	chromedriver!(No symbol) [0x7ff71d183a58]
+	chromedriver!(No symbol) [0x7ff71d184953]
+	chromedriver!GetHandleVerifier [0x7ff71dbc5511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff71dbbf8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff71dbe3205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff71d61cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff71d62562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff71d609984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff71d609b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff71d5eca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+12:26:09 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781592969085_gstin_processing_fail.png
+12:26:09 [ERROR] [TEMP_UTTAR PRADESH] GSTIN Processing Error | Step: 'GSTIN Loop' | Error: Message: 
+ | URL: https://reg.gst.gov.in/registration/auth/amend/core/amendaddlplace | Screenshot: screenshots/TEMP_UTTAR PRADESH_1781592969085_gstin_processing_fail.png
+12:26:09 [INFO] [TRACKING] Logged to failed_clients.xlsx.
+12:26:09 [INFO] [TEMP_UTTAR PRADESH] Resiliently continuing queue from next pending GSTIN.
+12:26:11 [INFO] 
+Bulk queue execution finished.
+13:41:03 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as "Knowledge Boulevard" situated at A-8A, Sector-62, Noida (U.P.), District Gautam Budh Nagar, Uttar Pradesh, 201309
+13:41:03 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+13:41:03 [INFO] Excel Hyperlink: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:41:03 [INFO] Resolved Document: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:41:03 [INFO] Document Exists: True
+13:41:03 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+13:41:03 [INFO] [PDF-COMPRESS] File 'husk EB - April,2026.pdf' is already small enough (0.13MB). Skipping compression.
+13:41:03 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+13:41:03 [INFO] Total Registrations Found: 1
+13:41:03 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+13:41:03 [INFO] [DEBUG] Total Active Rows Loaded: 1
+13:41:03 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+13:41:03 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+13:41:03 [INFO] ====== WebDriver manager ======
+13:41:05 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+13:41:06 [INFO] Chrome WebDriver initialised successfully.
+13:41:21 [ERROR] [LOGIN] Resilient login engine failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb78fd]
+	chromedriver!(No symbol) [0x7ff761c11479]
+	chromedriver!(No symbol) [0x7ff761c1177c]
+	chromedriver!(No symbol) [0x7ff761c61ef7]
+	chromedriver!(No symbol) [0x7ff761c5eaeb]
+	chromedriver!(No symbol) [0x7ff761c03a58]
+	chromedriver!(No symbol) [0x7ff761c04953]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff762089984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff762089b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff76206ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:41:21 [ERROR] [BATCH] Resilient login sequence failed for user 'GSTHPSUP_2017'.
+13:41:28 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59709): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84d24b34b379feabf35a60a8f24cd73e
+13:41:32 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59709): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84d24b34b379feabf35a60a8f24cd73e
+13:41:36 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59709): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84d24b34b379feabf35a60a8f24cd73e
+13:41:40 [INFO] 
+Bulk queue execution finished.
+13:42:52 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as "Knowledge Boulevard" situated at A-8A, Sector-62, Noida (U.P.), District Gautam Budh Nagar, Uttar Pradesh, 201309
+13:42:52 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+13:42:52 [INFO] Excel Hyperlink: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:42:52 [INFO] Resolved Document: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:42:52 [INFO] Document Exists: True
+13:42:52 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+13:42:52 [INFO] [PDF-COMPRESS] File 'husk EB - April,2026.pdf' is already small enough (0.13MB). Skipping compression.
+13:42:52 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+13:42:52 [INFO] Total Registrations Found: 1
+13:42:52 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+13:42:52 [INFO] [DEBUG] Total Active Rows Loaded: 1
+13:42:52 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+13:42:52 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+13:42:52 [INFO] ====== WebDriver manager ======
+13:42:53 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+13:42:54 [INFO] Chrome WebDriver initialised successfully.
+13:42:58 [INFO] [CAPTCHA] Login attempt 1/2
+13:42:59 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+13:43:00 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:43:00 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+13:43:00 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+13:43:00 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+13:43:00 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+13:43:01 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+13:43:01 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+13:43:01 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:01 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+13:43:02 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+13:43:02 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:02 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+13:43:02 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:02 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+13:43:03 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:03 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+13:43:03 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:43:03 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:43:04 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:04 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+13:43:04 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+13:43:05 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+13:43:05 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+13:43:05 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+13:43:05 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+13:43:06 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+13:43:06 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781597586262.png
+13:43:06 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+13:43:16 [INFO] [CAPTCHA] OCR result: '267092-'  confidence: 85.6%  (9957ms)
+13:43:16 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='267092-'  cleaned='267092'  conf=85.6%
+13:43:16 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=85.6% >= 75%, len=6)
+13:43:16 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '267092'  (conf=85.6%)
+13:43:16 [INFO] [CAPTCHA] Field filled with: '267092'
+13:43:18 [INFO] [CAPTCHA] Login OK on attempt 1.
+13:43:18 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+13:43:31 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+13:43:31 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+13:43:31 [INFO] Registration 1 of 1
+13:43:31 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+13:43:36 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+13:43:36 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+13:43:36 [INFO] [API-READ] Contact details fetched successfully via data wrapper.
+13:43:36 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+13:43:38 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+13:43:40 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+13:43:40 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+13:43:41 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+13:43:41 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+13:43:41 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+13:43:41 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+13:43:41 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+13:43:41 [INFO] [GSTREG-001] Scanning My Saved Applications...
+13:43:41 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+13:43:46 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+13:43:50 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+13:43:53 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+13:43:56 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781597636523_01_amend_workspace.png
+13:43:56 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781597636704_before_save_apob_toggle.png
+13:43:56 [INFO] [APOB] Navigating to Principal Place of Business tab...
+13:43:59 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+13:43:59 [INFO] [APOB] YES radio already checked.
+13:44:00 [INFO] [APOB] Principal Place of Business tab saved successfully.
+13:44:02 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781597642802_02_apob_enabled.png
+13:44:02 [INFO] [APOB] Navigating to Additional Places of Business tab...
+13:44:05 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781597645453_03_apob_tab.png
+13:44:05 [INFO] [APOB-BATCH] Total APoB records detected: 1
+13:44:05 [INFO] [DEBUG] About to update Additional Places count using 1 records
+13:44:05 [INFO] [APOB] Initiating dynamic additional places incrementer. New records to add (N): 1
+13:44:05 [INFO] [APOB] Existing Places: 6
+13:44:05 [INFO] [APOB] New Records From Excel: 1
+13:44:05 [INFO] [APOB] Updating Total Places To: 7
+13:44:05 [INFO] [APOB] Tapping on free screen (body) to trigger validation...
+13:44:07 [INFO] [APOB] Number of additional places successfully set to 7
+13:44:08 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781597647900_03b_num_apob_filled.png
+13:44:08 [INFO] [APOB] process_apob_batch delegating directly to process_multiple_apobs.
+13:44:08 [INFO] [APOB-BATCH] Total APoB records detected: 1
+13:44:08 [INFO] [APOB-RECORD] Processing record 1/1
+13:44:08 [INFO] [APOB] First APoB subform is not open. Triggering ADD NEW...
+13:44:08 [INFO] [APOB] Initiating enterprise-grade ADD NEW button detection...
+13:44:20 [INFO] [APOB] ADD NEW clicked via Priority 5 (JavaScript fallback)
+13:44:21 [INFO] [APOB] Waiting for fresh blank APOB form to load...
+13:44:21 [INFO] [APOB] Fresh APOB form loaded (PIN field is empty).
+13:44:21 [INFO] [APOB] Running APoB Form Expansion Handler to locate and expand the latest entry...
+13:44:23 [INFO] [APOB] Verifying fresh/blank APOB form...
+13:44:23 [INFO] [APOB] Fresh APOB form verified.
+13:44:23 [INFO] [FORM] Filling APoB form fields...
+13:44:23 [INFO] [APOB] Filling PIN Code: 201309
+13:44:24 [INFO] [APOB] Waiting for PIN suggestion dropdown list...
+13:44:24 [INFO] [APOB] Suggestion found. Clicking suggestion to select PIN...
+13:44:25 [INFO] [APOB] PIN entered. Waiting for district auto-fetch/enablement...
+13:44:25 [INFO] [APOB] Auto-fetch/enablement check completed successfully.
+13:44:25 [INFO] [FORM] District is already auto-populated with: 'Gautambuddha Nagar'. Skipping mapping.
+13:44:25 [INFO] [FORM] City/Town/Village is already auto-populated with: 'Noida'. Skipping mapping.
+13:44:25 [INFO] [FORM] Filling auto-suggest APoB Address.locality: Sector-62
+13:44:30 [WARNING] [FORM] Suggestion dropdown did not appear for APoB Address.locality. Sending TAB...
+13:44:31 [INFO] [FORM] Filling auto-suggest APoB Address.road: Main Road
+13:44:32 [INFO] [FORM] Suggestion found for APoB Address.road. Clicking to select...
+13:44:33 [INFO] [AMEND] APoB Address.buildingNo set to: 'Noida (U.P.)'
+13:44:34 [INFO] [AMEND] APoB Contact.mobile set to: '9934011413'
+13:44:34 [INFO] [AMEND] APoB Contact.email set to: 'sinha@huskpowersystems.com'
+13:44:34 [INFO] [APOB] Aligning possession dropdown to code 'OTH' (raw value: 'Electricity Bill')
+13:44:34 [INFO] [APOB] Locating and activating Document Type dropdown targeting 'ap_up_type'...
+13:44:34 [INFO] [APOB] Selected 'Legal ownership document' and dispatched change event.
+13:44:35 [INFO] [APOB] Prioritizing document path from Excel row dataset: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:44:35 [INFO] [PDF-COMPRESS] Using pre-compressed file from cache: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:44:35 [INFO] [UPLOAD] Upload attempt 1/3: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+13:44:35 [INFO] [UPLOAD] Bounding path injected. Waiting for upload completion indicator...
+13:44:35 [INFO] [UPLOAD-TRACKER] Tracking upload status event-driven...
+13:44:35 [INFO] [UPLOAD-TRACKER] Trash/Delete element found in DOM. Confirming completion.
+13:44:35 [INFO] [UPLOAD] ✓ Document uploaded successfully (tracked in 0.0s).
+13:44:35 [INFO] [FORM] Integrating sub-form submission metadata (reason and date of amendment)...
+13:44:35 [INFO] [AMEND] Sub-Form Reason set to: 'Addition of Place of Business'
+13:44:35 [INFO] [FORM] Sub-Form Date of Amendment dynamically injected: '16/06/2026'
+13:44:35 [INFO] [APOB] Processing Business Activities: Import, Office / Sale Office, Supplier of Services
+13:44:35 [INFO] [APOB] Master business activities list to select: ['Import', 'Office / Sale Office', 'Supplier of Services', 'Recipient of Goods or Services']
+13:44:36 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_IMP': Import
+13:44:36 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_OSO': Office / Sale Office
+13:44:36 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_SOS': Supplier of Services
+13:44:36 [INFO] [APOB] Selected mandatory checkbox via ID 'bp_ck_SRE': Recipient of Goods or Services
+13:44:36 [INFO] [APOB] Verification pass for the four mandatory business activity checkboxes...
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Import
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Office / Sale Office
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Supplier of Services
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Recipient of Goods or Services
+13:44:36 [INFO] [APOB] Mandatory checkboxes verified
+13:44:36 [INFO] [AUDIT] Running mandatory field audit for stage: APOB Record 1 Form Filling...
+13:44:36 [INFO] [AUDIT] ✓ Stage 'APOB Record 1 Form Filling' passed. No empty mandatory fields found.
+13:44:36 [INFO] [APOB] Running mandatory field enforcement pass before saving...
+13:44:36 [WARNING] [APOB] Document upload is empty! Generating and uploading fallback PDF...
+13:44:36 [INFO] [UPLOAD] Upload attempt 1/3: C:\Users\rgour\AppData\Local\Temp\fallback_ownership_proof.pdf
+13:44:36 [INFO] [UPLOAD] Bounding path injected. Waiting for upload completion indicator...
+13:44:36 [INFO] [UPLOAD-TRACKER] Tracking upload status event-driven...
+13:44:36 [INFO] [UPLOAD-TRACKER] Trash/Delete element found in DOM. Confirming completion.
+13:44:36 [INFO] [UPLOAD] ✓ Document uploaded successfully (tracked in 0.0s).
+13:44:36 [INFO] [APOB] Verification pass for the four mandatory business activity checkboxes...
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Import
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Office / Sale Office
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Supplier of Services
+13:44:36 [INFO] [APOB] Mandatory checkbox checked: Recipient of Goods or Services
+13:44:36 [INFO] [APOB] Mandatory checkboxes verified
+13:44:36 [INFO] [APOB] Saving individual record 1/1...
+13:44:36 [INFO] [APOB] Committing individual APoB record entry (1/1)...
+13:44:37 [INFO] [APOB] Selected save button text: 'SAVE & CONTINUE'
+13:44:37 [INFO] [APOB] Save button clicked on attempt 1/2.
+13:44:38 [INFO] [APOB] Checking for unsaved changes or confirmation popup...
+13:44:38 [INFO] [APOB-ADDNEW] Waiting for confirmation popup...
+13:44:38 [INFO] [ANGULAR] Waiting for portal rendering and DOM stabilization...
+13:44:39 [INFO] [ANGULAR] DOM is fully stable (elapsed: 1.0s)
+13:44:39 [INFO] [APOB-ADDNEW] Attempt 1/3 to confirm popup...
+13:44:46 [INFO] [APOB-ADDNEW] Attempt 2/3 to confirm popup...
+13:44:49 [WARNING] [APOB-ADDNEW] JS confirm popup failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb78fd]
+	chromedriver!(No symbol) [0x7ff761ba2d72]
+	chromedriver!(No symbol) [0x7ff761bc9046]
+	chromedriver!(No symbol) [0x7ff761c41480]
+	chromedriver!(No symbol) [0x7ff761c5e3d2]
+	chromedriver!(No symbol) [0x7ff761c03a58]
+	chromedriver!(No symbol) [0x7ff761c04953]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff762089984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff762089b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff76206ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:44:50 [INFO] [APOB-ADDNEW] Attempt 3/3 to confirm popup...
+13:44:50 [WARNING] [APOB-ADDNEW] JS confirm popup failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb76e6]
+	chromedriver!(No symbol) [0x7ff761c02ad3]
+	chromedriver!(No symbol) [0x7ff761c39c82]
+	chromedriver!(No symbol) [0x7ff761c33aa2]
+	chromedriver!(No symbol) [0x7ff761c33263]
+	chromedriver!(No symbol) [0x7ff761b803e5]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff761b7f188]
+	chromedriver!GetHandleVerifier [0x7ff762801238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:44:51 [WARNING] [APOB-ADDNEW] No confirmation popup found or click failed.
+13:44:54 [WARNING] [APOB] Save verification check failed on attempt 1/2. No toast, count increase, closed form, or cleared form detected.
+13:44:54 [WARNING] [GSTHPSUP_2017] Screenshot capture bypass: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb76e6]
+	chromedriver!(No symbol) [0x7ff761c02ad3]
+	chromedriver!(No symbol) [0x7ff761c39c82]
+	chromedriver!(No symbol) [0x7ff761c33aa2]
+	chromedriver!(No symbol) [0x7ff761c33263]
+	chromedriver!(No symbol) [0x7ff761b803e5]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff761b7f188]
+	chromedriver!GetHandleVerifier [0x7ff762801238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:44:56 [WARNING] [APOB] Exception during save attempt 2/2: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb76e6]
+	chromedriver!(No symbol) [0x7ff761c02ad3]
+	chromedriver!(No symbol) [0x7ff761c39c82]
+	chromedriver!(No symbol) [0x7ff761c33aa2]
+	chromedriver!(No symbol) [0x7ff761c33263]
+	chromedriver!(No symbol) [0x7ff761b803e5]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff761b7f188]
+	chromedriver!GetHandleVerifier [0x7ff762801238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:44:56 [WARNING] [GSTHPSUP_2017] Screenshot capture bypass: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb76e6]
+	chromedriver!(No symbol) [0x7ff761c02ad3]
+	chromedriver!(No symbol) [0x7ff761c39c82]
+	chromedriver!(No symbol) [0x7ff761c33aa2]
+	chromedriver!(No symbol) [0x7ff761c33263]
+	chromedriver!(No symbol) [0x7ff761b803e5]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff761b7f188]
+	chromedriver!GetHandleVerifier [0x7ff762801238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+13:44:58 [ERROR] [APOB] Save failed after 2 attempts.
+13:44:58 [WARNING] [TEMP_UTTAR PRADESH] Screenshot capture bypass: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76207fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff76207fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff761bb76e6]
+	chromedriver!(No symbol) [0x7ff761c02ad3]
+	chromedriver!(No symbol) [0x7ff761c39c82]
+	chromedriver!(No symbol) [0x7ff761c33aa2]
+	chromedriver!(No symbol) [0x7ff761c33263]
+	chromedriver!(No symbol) [0x7ff761b803e5]
+	chromedriver!GetHandleVerifier [0x7ff762645511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff76263f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff762663205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff76209cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff7620a562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff761b7f188]
+	chromedriver!GetHandleVerifier [0x7ff762801238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+16:48:35 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as "Knowledge Boulevard" situated at A-8A, Sector-62, Noida (U.P.), District Gautam Budh Nagar, Uttar Pradesh, 201309
+16:48:35 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+16:48:35 [INFO] Excel Hyperlink: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+16:48:35 [INFO] Resolved Document: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+16:48:35 [INFO] Document Exists: True
+16:48:35 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+16:48:35 [INFO] [PDF-COMPRESS] File 'husk EB - April,2026.pdf' is already small enough (0.13MB). Skipping compression.
+16:48:35 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+16:48:35 [INFO] Total Registrations Found: 1
+16:48:35 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+16:48:35 [INFO] [DEBUG] Total Active Rows Loaded: 1
+16:48:35 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+16:48:35 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+16:48:35 [INFO] ====== WebDriver manager ======
+16:48:37 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+16:48:38 [INFO] Chrome WebDriver initialised successfully.
+16:48:43 [INFO] [CAPTCHA] Login attempt 1/2
+16:48:43 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+16:48:44 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+16:48:44 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:48:44 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+16:48:44 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+16:48:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+16:48:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+16:48:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:48:45 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:45 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+16:48:46 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:48:46 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:46 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+16:48:46 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:46 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+16:48:47 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:47 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+16:48:47 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+16:48:47 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+16:48:48 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:48 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+16:48:48 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+16:48:49 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+16:48:49 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+16:48:49 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+16:48:49 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+16:48:49 [INFO] [CAPTCHA] Image captured via element.screenshot (182×50px)
+16:48:49 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781608729902.png
+16:48:50 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+16:48:56 [INFO] [CAPTCHA] OCR result: '9298.99'  confidence: 90.1%  (6773ms)
+16:48:56 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='9298.99'  cleaned='929899'  conf=90.1%
+16:48:56 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=90.1% >= 75%, len=6)
+16:48:56 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '929899'  (conf=90.1%)
+16:48:57 [INFO] [CAPTCHA] Field filled with: '929899'
+16:48:59 [INFO] [CAPTCHA] Login OK on attempt 1.
+16:48:59 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+16:49:11 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+16:49:11 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+16:49:11 [INFO] Registration 1 of 1
+16:49:11 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+16:49:16 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+16:49:16 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+16:49:16 [INFO] [API-READ] Contact details fetched successfully via data wrapper.
+16:49:16 [WARNING] [PROFILE-API] Failed parsing api_data string: Expecting value: line 1 column 1 (char 0)
+16:49:16 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+16:49:18 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+16:49:20 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+16:49:20 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+16:49:21 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+16:49:21 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+16:49:21 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+16:49:21 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+16:49:21 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+16:49:21 [INFO] [GSTREG-001] Scanning My Saved Applications...
+16:49:21 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+16:49:27 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+16:49:31 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+16:49:33 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+16:49:36 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608776838_01_amend_workspace.png
+16:49:37 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608776940_before_save_apob_toggle.png
+16:49:37 [INFO] [APOB] Navigating to Principal Place of Business tab...
+16:49:39 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+16:49:39 [INFO] [APOB] YES radio already checked.
+16:49:40 [INFO] [APOB] Principal Place of Business tab saved successfully.
+16:49:42 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608782606_02_apob_enabled.png
+16:49:42 [INFO] [APOB] Navigating to Additional Places of Business tab...
+16:49:45 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608785126_03_apob_tab.png
+16:49:45 [INFO] [APOB-BATCH] Total APoB records detected: 1
+16:49:45 [INFO] [DEBUG] About to update Additional Places count using 1 records
+16:49:45 [INFO] [APOB] Initiating dynamic additional places incrementer. New records to add (N): 1
+16:49:45 [INFO] [APOB] Existing Places: 6
+16:49:45 [INFO] [APOB] New Records From Excel: 1
+16:49:45 [INFO] [APOB] Updating Total Places To: 7
+16:49:45 [INFO] [APOB] Tapping on free screen (body) to trigger validation...
+16:49:47 [INFO] [APOB] Number of additional places successfully set to 7
+16:49:47 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608787443_03b_num_apob_filled.png
+16:49:47 [INFO] [APOB] process_apob_batch delegating directly to process_multiple_apobs.
+16:49:47 [INFO] [APOB-BATCH] Total APoB records detected: 1
+16:49:47 [INFO] [APOB-RECORD] Processing record 1/1
+16:49:47 [INFO] [APOB] First APoB subform is not open. Triggering ADD NEW...
+16:49:47 [INFO] [APOB] Initiating enterprise-grade ADD NEW button detection...
+16:50:00 [INFO] [APOB] ADD NEW clicked via Priority 5 (JavaScript fallback)
+16:50:01 [INFO] [APOB] Waiting for fresh blank APOB form to load...
+16:50:01 [INFO] [APOB] Fresh APOB form loaded (Modal visible).
+16:50:01 [INFO] [APOB] Running APoB Form Expansion Handler to locate and expand the latest entry...
+16:50:02 [INFO] [APOB] Verifying fresh/blank APOB form...
+16:50:02 [INFO] [APOB] Fresh APOB form verified.
+16:50:02 [INFO] [FORM] Filling APoB form fields...
+16:50:02 [INFO] [APOB] Filling PIN Code: 201309
+16:50:18 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781608818119_gstin_processing_fail.png
+16:50:18 [ERROR] [TEMP_UTTAR PRADESH] GSTIN Processing Error | Step: 'GSTIN Loop' | Error: Message: 
+ | URL: https://reg.gst.gov.in/registration/auth/amend/core/amendaddlplace | Screenshot: screenshots/TEMP_UTTAR PRADESH_1781608818119_gstin_processing_fail.png
+16:50:18 [INFO] [TRACKING] Logged to failed_clients.xlsx.
+16:50:18 [INFO] [TEMP_UTTAR PRADESH] Resiliently continuing queue from next pending GSTIN.
+16:50:20 [INFO] 
+Bulk queue execution finished.
+16:51:48 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as "Knowledge Boulevard" situated at A-8A, Sector-62, Noida (U.P.), District Gautam Budh Nagar, Uttar Pradesh, 201309
+16:51:48 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+16:51:48 [INFO] Excel Hyperlink: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+16:51:48 [INFO] Resolved Document: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+16:51:48 [INFO] Document Exists: True
+16:51:48 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+16:51:48 [INFO] [PDF-COMPRESS] File 'husk EB - April,2026.pdf' is already small enough (0.13MB). Skipping compression.
+16:51:48 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+16:51:48 [INFO] Total Registrations Found: 1
+16:51:48 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+16:51:48 [INFO] [DEBUG] Total Active Rows Loaded: 1
+16:51:48 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+16:51:48 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+16:51:48 [INFO] ====== WebDriver manager ======
+16:51:49 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+16:51:50 [INFO] Chrome WebDriver initialised successfully.
+16:51:53 [INFO] [CAPTCHA] Login attempt 1/2
+16:51:53 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+16:51:54 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+16:51:55 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:51:55 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+16:51:55 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+16:51:55 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+16:51:55 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:56 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+16:51:57 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:57 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+16:51:57 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:57 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+16:51:57 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+16:51:58 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+16:51:58 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:58 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+16:51:58 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+16:51:59 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+16:51:59 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+16:51:59 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+16:51:59 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+16:52:00 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+16:52:00 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781608920047.png
+16:52:00 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+16:52:04 [INFO] [CAPTCHA] OCR result: '817490'  confidence: 75.2%  (4539ms)
+16:52:04 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='817490'  cleaned='817490'  conf=75.2%
+16:52:04 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=75.2% >= 75%, len=6)
+16:52:04 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '817490'  (conf=75.2%)
+16:52:05 [INFO] [CAPTCHA] Field filled with: '817490'
+16:52:18 [WARNING] [CAPTCHA] Dashboard not found on attempt 1 (text='817490').
+16:52:18 [INFO] [CAPTCHA] CAPTCHA refreshed via click.
+16:52:19 [INFO] [CAPTCHA] Login attempt 2/2
+16:52:19 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+16:52:20 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781608939993.png
+16:52:20 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+16:52:22 [INFO] [CAPTCHA] OCR result: '7000055'  confidence: 59.2%  (2398ms)
+16:52:22 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='7000055'  cleaned='7000055'  conf=59.2%
+16:52:24 [INFO] [CAPTCHA] OCR result: 'MANONS'  confidence: 37.0%  (1894ms)
+16:52:24 [INFO] [CAPTCHA]   Red Mask Only          raw='MANONS'  cleaned='MAN0NS'  conf=37.0%
+16:52:28 [INFO] [CAPTCHA] OCR result: 'AMOUNT'  confidence: 43.5%  (3694ms)
+16:52:28 [INFO] [CAPTCHA]   Red+Median             raw='AMOUNT'  cleaned='AM0UNT'  conf=43.5%
+16:52:30 [INFO] [CAPTCHA] OCR result: 'MANONS'  confidence: 41.4%  (2012ms)
+16:52:30 [INFO] [CAPTCHA]   Red+Median+CLAHE       raw='MANONS'  cleaned='MAN0NS'  conf=41.4%
+16:52:30 [INFO] [CAPTCHA] Best strategy: 'Red+Median'  ->  'AM0UNT'  (conf=43.5%)
+16:52:30 [WARNING] [CAPTCHA] Confidence 43.5% below threshold (45%) — rejecting and refreshing CAPTCHA...
+16:52:30 [INFO] [CAPTCHA] CAPTCHA refreshed via click.
+16:52:31 [WARNING] [CAPTCHA] Auto-solve failed. Switched to user manual CAPTCHA entry mode...
+16:52:31 [INFO] Please solve the CAPTCHA and submit the Login action manually inside the browser.
+16:52:31 [INFO] Waiting for dashboard to load...
+16:53:01 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+16:53:14 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+16:53:14 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+16:53:14 [INFO] Registration 1 of 1
+16:53:14 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+16:53:19 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+16:53:19 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+16:53:19 [INFO] [API-READ] Contact details fetched successfully via data wrapper.
+16:53:19 [WARNING] [PROFILE-API] Failed parsing api_data string: Expecting value: line 1 column 1 (char 0)
+16:53:19 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+16:53:22 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+16:53:24 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+16:53:24 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+16:53:25 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+16:53:25 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+16:53:25 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+16:53:25 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+16:53:25 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+16:53:25 [INFO] [GSTREG-001] Scanning My Saved Applications...
+16:53:25 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+16:53:30 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+16:53:35 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+16:53:37 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+16:53:40 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781609020610_01_amend_workspace.png
+16:53:40 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781609020757_before_save_apob_toggle.png
+16:53:40 [INFO] [APOB] Navigating to Principal Place of Business tab...
+16:53:44 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+16:53:44 [INFO] [APOB] YES radio already checked.
+16:53:45 [INFO] [APOB] Principal Place of Business tab saved successfully.
+16:53:47 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781609027572_02_apob_enabled.png
+16:53:47 [INFO] [APOB] Navigating to Additional Places of Business tab...
+16:53:50 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781609030428_03_apob_tab.png
+16:53:50 [INFO] [APOB-BATCH] Total APoB records detected: 1
+16:53:50 [INFO] [DEBUG] About to update Additional Places count using 1 records
+16:53:50 [INFO] [APOB] Initiating dynamic additional places incrementer. New records to add (N): 1
+16:53:50 [INFO] [APOB] Existing Places: 6
+16:53:50 [INFO] [APOB] New Records From Excel: 1
+16:53:50 [INFO] [APOB] Updating Total Places To: 7
+16:53:50 [INFO] [APOB] Tapping on free screen (body) to trigger validation...
+16:53:52 [INFO] [APOB] Number of additional places successfully set to 7
+16:53:53 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781609032892_03b_num_apob_filled.png
+16:53:53 [INFO] [APOB] process_apob_batch delegating directly to process_multiple_apobs.
+16:53:53 [INFO] [APOB-BATCH] Total APoB records detected: 1
+16:53:53 [INFO] [APOB-RECORD] Processing record 1/1
+16:53:53 [INFO] [APOB] First APoB subform is not open. Triggering ADD NEW...
+16:53:53 [INFO] [APOB] Initiating enterprise-grade ADD NEW button detection...
+16:54:05 [INFO] [APOB] ADD NEW clicked via Priority 5 (JavaScript fallback)
+16:54:06 [INFO] [APOB] Waiting for fresh blank APOB form to load...
+16:54:06 [INFO] [APOB] Fresh APOB form loaded (PIN field is empty).
+16:54:06 [INFO] [APOB] Running APoB Form Expansion Handler to locate and expand the latest entry...
+16:54:08 [INFO] [APOB] Verifying fresh/blank APOB form...
+16:54:08 [INFO] [APOB] Fresh APOB form verified.
+16:54:08 [INFO] [FORM] Filling APoB form fields...
+16:54:08 [INFO] [APOB] Filling PIN Code: 201309
+16:54:09 [INFO] [APOB] Waiting for PIN suggestion dropdown list...
+16:54:09 [INFO] [APOB] Suggestion found. Clicking suggestion to select PIN...
+16:54:10 [INFO] [APOB] PIN entered. Waiting for district auto-fetch/enablement...
+16:54:10 [INFO] [APOB] Auto-fetch/enablement check completed successfully.
+16:54:10 [INFO] [FORM] District is already auto-populated with: 'Gautambuddha Nagar'. Skipping mapping.
+16:54:10 [INFO] [FORM] City/Town/Village is already auto-populated with: 'Noida'. Skipping mapping.
+16:54:10 [INFO] [FORM] Filling auto-suggest APoB Address.locality: Sector-62
+16:54:16 [ERROR] [FORM] Failed to fill auto-suggest field 'APoB Address.locality': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff72ac6fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff72ac6fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff72a7a78fd]
+	chromedriver!(No symbol) [0x7ff72a792d72]
+	chromedriver!(No symbol) [0x7ff72a7b9046]
+	chromedriver!(No symbol) [0x7ff72a831480]
+	chromedriver!(No symbol) [0x7ff72a84e3d2]
+	chromedriver!(No symbol) [0x7ff72a7f3a58]
+	chromedriver!(No symbol) [0x7ff72a7f4953]
+	chromedriver!GetHandleVerifier [0x7ff72b235511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff72b22f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff72b253205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff72ac8cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff72ac9562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff72ac79984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff72ac79b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff72ac5ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+16:54:16 [ERROR] [FORM] Failed to fill auto-suggest field 'APoB Address.road': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff72ac6fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff72ac6fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff72a7a76e6]
+	chromedriver!(No symbol) [0x7ff72a7f2ad3]
+	chromedriver!(No symbol) [0x7ff72a829c82]
+	chromedriver!(No symbol) [0x7ff72a823aa2]
+	chromedriver!(No symbol) [0x7ff72a823263]
+	chromedriver!(No symbol) [0x7ff72a7703e5]
+	chromedriver!GetHandleVerifier [0x7ff72b235511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff72b22f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff72b253205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff72ac8cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff72ac9562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff72a76f188]
+	chromedriver!GetHandleVerifier [0x7ff72b3f1238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+
+16:54:16 [WARNING] [TEMP_UTTAR PRADESH] Browser crash exception detected during inner processing: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff72ac6fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff72ac6fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff72a7a76e6]
+	chromedriver!(No symbol) [0x7ff72a7f2ad3]
+	chromedriver!(No symbol) [0x7ff72a829c82]
+	chromedriver!(No symbol) [0x7ff72a823aa2]
+	chromedriver!(No symbol) [0x7ff72a823263]
+	chromedriver!(No symbol) [0x7ff72a7703e5]
+	chromedriver!GetHandleVerifier [0x7ff72b235511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff72b22f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff72b253205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff72ac8cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff72ac9562c+3ac2c]
+	chromedriver!(No symbol) [0x7ff72a76f188]
+	chromedriver!GetHandleVerifier [0x7ff72b3f1238+796838]
+	KERNEL32!BaseThreadInitThunk [0x7ffad557e957+17]
+	ntdll!RtlUserThreadStart [0x7ffad6ca7c1c+2c]
+. Propagating to restarter.
+17:53:58 [INFO] [GSTREG-001] Resolving fields from composite address: 7th floor of the Building known as "Knowledge Boulevard" situated at A-8A, Sector-62, Noida (U.P.), District Gautam Budh Nagar, Uttar Pradesh, 201309
+17:53:58 [INFO] Excel Text: File 1 - husk EB - April,2026.pdf
+File 2 - husk Lease Deed Knowledge Bouvelard (1).pdf
+File 3 - husk Membership Agreement Husk Power System (1).pdf
+File 4 - husk NOC- Husk Power.pdf
+File 5 - husk Uttar Pradesh GST Certificate Amended.pdf
+17:53:58 [INFO] Excel Hyperlink: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+17:53:58 [INFO] Resolved Document: C:\Users\rgour\Downloads\power\utility\husk EB - April,2026.pdf
+17:53:58 [INFO] Document Exists: True
+17:53:58 [INFO] [PDF-COMPRESS] Pre-batch compression of 1 unique document(s)...
+17:53:58 [INFO] [PDF-COMPRESS] File 'husk EB - April,2026.pdf' is already small enough (0.13MB). Skipping compression.
+17:53:58 [INFO] [CHECKPOINT] Loaded checkpoint from C:\Users\rgour\Downloads\power_client_outputs\_internal\checkpoint.json.
+17:53:58 [INFO] Total Registrations Found: 1
+17:53:58 [INFO] Bulk engine started. Processing rows 0 to 0 (Total: 1)...
+17:53:58 [INFO] [DEBUG] Total Active Rows Loaded: 1
+17:53:58 [INFO] 
+======================================================================
+[USER SESSION: GSTHPSUP_2017] FOUND 1 ACTIVE ROWS FOR BATCH PROCESSING
+======================================================================
+17:53:58 [INFO] [BATCH] Initializing fresh Selenium browser instance for user 'GSTHPSUP_2017'...
+17:53:58 [INFO] ====== WebDriver manager ======
+17:53:59 [INFO] Driver [C:\Users\rgour\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win64/chromedriver.exe] found in cache by browser version
+17:54:01 [INFO] Chrome WebDriver initialised successfully.
+17:54:05 [INFO] [CAPTCHA] Login attempt 1/2
+17:54:05 [INFO] [OCR-SINGLETON] Loading TrOCR engine on CPU (thread-safe)...
+17:54:06 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+17:54:06 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+17:54:06 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+17:54:06 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+17:54:07 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+17:54:07 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+17:54:07 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+17:54:07 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:07 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/preprocessor_config.json "HTTP/1.1 200 OK"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:08 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/tokenizer_config.json "HTTP/1.1 200 OK"
+17:54:09 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+17:54:09 [INFO] HTTP Request: GET https://huggingface.co/api/models/microsoft/trocr-base-printed/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+17:54:09 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:09 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/config.json "HTTP/1.1 200 OK"
+17:54:10 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+17:54:10 [INFO] HTTP Request: HEAD https://huggingface.co/microsoft/trocr-base-printed/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+17:54:11 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/trocr-base-printed/93450be3f1ed40a930690d951ef3932687cc1892/generation_config.json "HTTP/1.1 200 OK"
+17:54:11 [INFO] [OCR-SINGLETON] TrOCR engine loaded successfully.
+17:54:11 [INFO] [CAPTCHA] TrOCR ready (reused from thread-safe singleton on CPU)
+17:54:11 [INFO] [CAPTCHA] Image captured via element.screenshot (228×63px)
+17:54:11 [INFO] [CAPTCHA] Saved -> C:\Users\rgour\AppData\Local\Temp\gst_captcha_live_1781612651617.png
+17:54:11 [INFO] [CAPTCHA] Preprocessing complete (4 ensemble variants ready, parallel)
+17:54:19 [INFO] [CAPTCHA] OCR result: '675197'  confidence: 94.3%  (7968ms)
+17:54:19 [INFO] [CAPTCHA]   Raw 4× Upscale         raw='675197'  cleaned='675197'  conf=94.3%
+17:54:19 [INFO] [CAPTCHA] Early exit after variant 1/4 (conf=94.3% >= 75%, len=6)
+17:54:19 [INFO] [CAPTCHA] Best strategy: 'Raw 4× Upscale'  ->  '675197'  (conf=94.3%)
+17:54:19 [INFO] [CAPTCHA] Field filled with: '675197'
+17:54:22 [INFO] [CAPTCHA] Login OK on attempt 1.
+17:54:22 [INFO] [LOGIN] Login successfully completed. Stabilizing session...
+17:54:34 [INFO] [UPLOAD-TRACKER] Injected network interceptor into browser session.
+17:54:34 [INFO] 
+======================================================================
+[GSTIN: TEMP_UTTAR PRADESH] PROCESSING 1 APoB RECORDS IN BATCH
+======================================================================
+17:54:34 [INFO] Registration 1 of 1
+17:54:34 [INFO] [GSTREG-001] Bypassing strict GSTIN format validation as it is identified as an internal registration ID.
+17:54:39 [INFO] [TEMP_UTTAR PRADESH] Session cache is empty. Auto-fetching contact details from logged-in GST profile...
+17:54:39 [INFO] [API-READ] Fetching contacts via profile contact API (handshake)...
+17:54:39 [INFO] [API-READ] Contact details fetched successfully via data wrapper.
+17:54:39 [WARNING] [PROFILE-API] Failed parsing api_data string: Expecting value: line 1 column 1 (char 0)
+17:54:39 [INFO] [PROFILE] Visual Fallback: Navigating to My Profile using direct JS redirect...
+17:54:41 [INFO] [PROFILE] Clicking 'Address and Contacts' tab...
+17:54:43 [INFO] [PROFILE] Ensuring 'Authorized Signatory' panel is expanded...
+17:54:43 [INFO] [PROFILE] Panel collapsed. Clicking to expand...
+17:54:44 [INFO] [PROFILE] Extracting primary contact details via JavaScript...
+17:54:44 [INFO] [PROFILE] Extracted Profile Contact: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+17:54:44 [INFO] [TEMP_UTTAR PRADESH] Stored contact details in Session Contact Cache: Mobile='9934011413', Email='sinha@huskpowersystems.com'
+17:54:44 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Mobile for queue record with profile value: 9934011413
+17:54:44 [INFO] [TEMP_UTTAR PRADESH] Dynamically updated Email for queue record with profile value: sinha@huskpowersystems.com
+17:54:44 [INFO] [GSTREG-001] Scanning My Saved Applications...
+17:54:44 [INFO] [NAVIGATION] Navigating to Dashboard -> Services -> User Services -> My Saved Applications...
+17:54:49 [INFO] [NAVIGATION] Triggering direct relative URL redirect...
+17:54:54 [INFO] [NAVIGATION] ✓ Successfully navigated via relative URL redirect.
+17:54:56 [INFO] [GSTREG-001] Resuming Core Field Amendment draft in table...
+17:54:59 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781612699813_01_amend_workspace.png
+17:55:00 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781612699989_before_save_apob_toggle.png
+17:55:00 [INFO] [APOB] Navigating to Principal Place of Business tab...
+17:55:02 [INFO] [APOB] Enabling 'Have Additional Place of Business' = YES...
+17:55:02 [INFO] [APOB] YES radio already checked.
+17:55:03 [INFO] [APOB] Principal Place of Business tab saved successfully.
+17:55:05 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781612705737_02_apob_enabled.png
+17:55:05 [INFO] [APOB] Navigating to Additional Places of Business tab...
+17:55:08 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781612708345_03_apob_tab.png
+17:55:08 [INFO] [APOB-BATCH] Total APoB records detected: 1
+17:55:08 [INFO] [DEBUG] About to update Additional Places count using 1 records
+17:55:08 [INFO] [TEMP_UTTAR PRADESH] Screenshot archived: screenshots/TEMP_UTTAR PRADESH_1781612708438_gstin_processing_fail.png
+17:55:08 [ERROR] [TEMP_UTTAR PRADESH] GSTIN Processing Error | Step: 'GSTIN Loop' | Error: object of type 'int' has no len() | URL: https://reg.gst.gov.in/registration/auth/amend/core/amendaddlplace | Screenshot: screenshots/TEMP_UTTAR PRADESH_1781612708438_gstin_processing_fail.png
+17:55:08 [INFO] [TRACKING] Logged to failed_clients.xlsx.
+17:55:08 [INFO] [TEMP_UTTAR PRADESH] Resiliently continuing queue from next pending GSTIN.
+17:55:11 [INFO] 
+Bulk queue execution finished.

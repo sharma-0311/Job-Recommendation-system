@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <rect x="80" y="80" width="80" height="80" rx="16" fill="#3B5BDB"/>
+  <text x="120" y="132" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="32" font-weight="700">DX</text>
+  <text x="200" y="115" fill="#1E293B" font-family="system-ui, sans-serif" font-size="56" font-weight="600">DialX</text>
+  <text x="200" y="165" fill="#64748B" font-family="system-ui, sans-serif" font-size="28">Emergency Healthcare Coordination</text>
+  <text x="200" y="280" fill="#334155" font-family="system-ui, sans-serif" font-size="36" font-weight="500">Emergency medicines, coordinated</text>
+  <text x="200" y="330" fill="#334155" font-family="system-ui, sans-serif" font-size="36" font-weight="500">when every minute counts</text>
+  <circle cx="950" cy="400" r="120" fill="#3B5BDB" opacity="0.1"/>
+  <circle cx="950" cy="400" r="80" fill="#3B5BDB" opacity="0.2"/>
+  <circle cx="950" cy="400" r="40" fill="#3B5BDB"/>
+</svg>
